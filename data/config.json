@@ -1,0 +1,315 @@
+{
+  "greeting": "Hi There! I'm",
+  "fullName": "Simon Mpoy",
+  "initials": "SM",
+  "title": "Full stack developer",
+  "description": " living in Wixom, MI with a great passion for programming and building web application and more than 5 years leading technology projects.",
+  "menu": "Menu",
+  "logo": "sm_logo.png",
+  "channels": [
+    {
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/maxim-simon-mpoy-pmp-11b90629",
+      "icon": "linkedin"
+    },
+    {
+      "title": "GitHub",
+      "link": "https://github.com/LeBaron88",
+      "icon": "github"
+    },
+    {
+      "title": "YouTube",
+      "link": "https://www.youtube.com/channel/UCZTU2rhpY76FJoqtHIHd5iw/featured?view_as=subscriber",
+      "icon": "youtube"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "title": "Home />",
+      "active": true,
+      "icon": "home ",
+      "to": "/"
+    },
+    {
+      "id": 2,
+      "title": "Resume />",
+      "active": false,
+      "icon": "file alternate",
+      "to": "/resume"
+    },
+    {
+      "id": 3,
+      "title": "Portfolio  />",
+      "active": "false",
+      "icon": "briefcase ",
+      "to": "/portfolio"
+    },
+    {
+      "id": 4,
+      "title": "Contact />",
+      "active": false,
+      "icon": "envelope",
+      "to": "/contact"
+    }
+  ],
+  "pages": {
+    "home": {
+      "title": "Home",
+      "description": "homepage"
+    },
+    "resume": {
+      "title": "Resume",
+      "description": "My experience, education & skills"
+    },
+    "portfolio": {
+      "title": "Porfolio",
+      "description": "My projects"
+    },
+    "contact": {
+      "title": "Contact Me",
+      "description": "Get in touch !"
+    }
+  },
+  "resume": {
+    "Work": {
+      "id": 1,
+      "active": true,
+      "data": [
+        {
+          "date": "April 2016 - December 2018",
+          "title": "Project Manager",
+          "company": "Finca",
+          "companyWebsite": "https://www.finca.cd/en/",
+          "logo": "finca2.jpg",
+          "details": [
+            "Successfully managed and launched 2 mobile applications for the institution - USSD for basic phone and iOS and Android for smartphones. https://www.finca.cd/en/products/click/ and https://www.finca.cd/en/products/finca-mobile/",
+            "Performed integration with Vodacom DRC (Mobile Network Operator) to launch a mobile application for micro saving and lending.",
+            "Launched FINCA PAY a payment gateway solution for school, tv subscription and tax payment.",
+            "Performed 1st and 2nd level support for all deployed solution for both internal users and customers."
+          ]
+        },
+        {
+          "date": "January 2014 - April 2016",
+          "title": "Project Specialist",
+          "company": "Vodacom",
+          "companyWebsite": "https://www.vodacom.cd/",
+          "logo": "vodacom.jpeg",
+          "details": [
+            "Managed successfully the development and launch of an electronic scanning solution to ensure all physical customer registration forms were protected.",
+            "Managed successfully the hardware (servers capacity) expansion project of the core billing system.",
+            "Deployed a local based geo-spatial web application for the marketing department.",
+            "Managed the migration of Sage ERP X3 and integration to Sage RMS solution for the finance department."
+          ]
+        },
+        {
+          "date": "August 2012 - January 2014",
+          "title": "Junior New Product Development Specialist",
+          "company": "Vodacom",
+          "companyWebsite": "https://www.vodacom.cd/",
+          "logo": "vodacom.jpeg",
+          "details": [
+            "Delivered more than 40 products ranging from simple tariff plan change to complete new product implementation.",
+            "Managed the product team that consisted mostly of core billing systems engineers, testers, customer support staff and different business teams.",
+            "Managed and coordinated communication with stakeholders including reports setup and distribution."
+          ]
+        },
+        {
+          "date": "February 2010 - March 2011",
+          "title": "Engineering Project Manager - Intern",
+          "company": "Gemalto SA",
+          "companyWebsite": "https://www.gemalto.com",
+          "logo": "gemalto.png",
+          "details": [
+            "Developed customer requirement documents and profiles.",
+            "Developed scripts to be loaded on SIM Cards for testing using proprietary software.",
+            "Performed tests to ensure the delivered application was working according to the customer requirements.",
+            "Managed manufacturing and production of the cards.",
+            "Ensured the post-delivery support."
+          ]
+        },
+        {
+          "date": "June 2009 - August 2009",
+          "title": "IT Support - Intern",
+          "company": "Tshwane University of Technology",
+          "companyWebsite": "https://www.tut.ac.za",
+          "logo": "tut.png",
+          "details": [
+            "Installed and configured computer hardware, software, operating systems, networks, printers, and scanners.",
+            "Monitored and maintained computer systems and networks.",
+            "Provided technical support across the university.",
+            "Repaired and replaced faulty equipment as necessary."
+          ]
+        }
+      ]
+    },
+    "Education": {
+      "id": 2,
+      "active": false,
+      "data": [
+        {
+          "date": "June 2012",
+          "course": "Computer Engineering",
+          "certificate": "Bachelor Degree with 3.50 GPA",
+          "institution": "Tshwane University of Technology - South Africa",
+          "logo": "tut.png",
+          "link": "https://www.tut.ac.za"
+        },
+        {
+          "date": "Septmber 2019",
+          "course": "Node with React: fullstack web development",
+          "certificate": "",
+          "institution": "Udemy",
+          "logo": "udemy.jpg",
+          "link": "https://udemy.com"
+        },
+        {
+          "date": "August 2019",
+          "course": "Modern React with Redux",
+          "certificate": "",
+          "institution": "Udemy",
+          "logo": "udemy.jpg",
+          "link": "https://udemy.com"
+        },
+        {
+          "date": "August 2019",
+          "course": "The complete JavaScript course: Build real world projects",
+          "certificate": "",
+          "institution": "Udemy",
+          "logo": "udemy.jpg",
+          "link": "https://udemy.com"
+        },
+        {
+          "date": "June 2019",
+          "course": "Build responsive real world websites with html5 and css3",
+          "certificate": "",
+          "institution": "Udemy",
+          "logo": "udemy.jpg",
+          "link": "https://udemy.com"
+        },
+        {
+          "date": "June 2019",
+          "course": "JavaScript Tutorial",
+          "certificate": "",
+          "institution": "SoloLearn",
+          "logo": "sololearn.jpg",
+          "link": "https://sololearn.com"
+        },
+        {
+          "date": "April 2019",
+          "course": "CompTIA A+",
+          "certificate": "",
+          "institution": "CompTIA",
+          "logo": "comptia.png",
+          "link": "https://www.youracclaim.com/badges/39f54912-54fa-4cd5-a81a-ba1b2f248d17/linked_in_profile"
+        },
+        {
+          "date": "September 2017",
+          "course": "Project Management Professional",
+          "certificate": "",
+          "institution": "Project Management Institute",
+          "logo": "pmi.png",
+          "link": "https://www.youracclaim.com/badges/98fb7209-f179-44f7-a7f4-194ffb2d47ae/linked_in_profile"
+        }
+      ]
+    },
+    "Skills": {
+      "id": 3,
+      "active": false,
+      "data": [
+        { "title": "JavaScript (ES6 +)", "logo": "js.png" },
+        { "title": "React", "logo": "react.png" },
+        { "title": "Redux", "logo": "redux.png" },
+        { "title": "Html & CSS", "logo": "html_css.png" },
+        { "title": "Node.js", "logo": "nodejs.png" },
+        { "title": "ExpressJs", "logo": "expressjs.png" },
+        { "title": "Semantic-ui", "logo": "semantic.png" },
+        { "title": "Materialize", "logo": "materialize.png" },
+        { "title": "Bootstrap", "logo": "bootstrap.png" },
+        { "title": "Python", "logo": "python.png" },
+        { "title": "Git", "logo": "git.png" },
+        { "title": "Github", "logo": "github.png" },
+        { "title": "Heroku", "logo": "heroku.png" },
+        { "title": "MongoDB", "logo": "mongodb.png" },
+        { "title": "MySql", "logo": "mysql.png" },
+        { "title": "PMP", "logo": "pmp.png" }
+      ]
+    }
+  },
+  "contact": {
+    "contactText": "I always have time to respond to emails and all communication, so don't hesitate to leave me a note.",
+    "mailConfirmation": ""
+  },
+
+  "portfolio": [
+    {
+      "id": "0",
+      "title": "Emaily",
+      "description": " An application allowing users to send surveys to a defined list of emails and get feedback ...",
+      "technology": "React - Redux - Express - MongoDB - Passport - Node",
+      "picture": "emaily.png",
+      "github": "https://github.com/LeBaron88/CardMatchGame",
+      "link": "https://gentle-river-26816.herokuapp.com/surveys"
+    },
+    {
+      "id": "1",
+      "title": "Card matching pairs",
+      "description": "A simple Javascirpt game of matching cards developped using Javascript, Html and CSS. 5 tries allowed ...",
+      "technology": "JavaScript - HTML - CSS",
+      "picture": "card.png",
+      "github": "https://github.com/LeBaron88/CardMatchGame",
+      "link": "https://lebaron88.github.io/CardMatchGame/"
+    },
+    {
+      "id": "2",
+      "title": "Vanessa Guest List App",
+      "description": "A responsive ReactJS and ExpressJS app to manage guests attendance at Vanessa Wedding ...",
+      "technology": "React - Express - Node - HTML - CSS",
+      "picture": "guestApp.png",
+      "github": "https://github.com/LeBaron88/VanessaGuestListApp",
+      "link": "https://pure-oasis-78018.herokuapp.com"
+    },
+    {
+      "id": "3",
+      "title": "Vanessa Wedding site",
+      "description": "Resposive wedding website developped using HTML, CSS, jquery and JavaScript ...",
+      "technology": "Javascript - Jquery - HTML - CSS",
+      "picture": "wedding.png",
+      "github": "https://github.com/LeBaron88/vanessa_wedding_website",
+      "link": "http://vs.precious.solutions"
+    },
+    {
+      "id": "4",
+      "title": "Budgetery",
+      "description": "Simple Javascript application to manage a budget ...",
+      "technology": "Javascript - HTML - CSS",
+      "picture": "budgetery.png",
+      "github": "https://github.com/LeBaron88/budgetery",
+      "link": "https://lebaron88.github.io/budgetery/"
+    },
+    {
+      "id": "5",
+      "title": "TicTacToe App",
+      "description": "A simple Tic Tac Toe game written in python using the turtle module ...",
+      "technology": "Python - Turtle",
+      "picture": "tictactoe.png",
+      "github": "https://github.com/LeBaron88/TicTacToe",
+      "link": "https://github.com/LeBaron88/TicTacToe"
+    },
+    {
+      "id": "6",
+      "title": "Tetris My Way",
+      "description": "Tetris game developed in python (my way at least) using the pygame module ...",
+      "technology": "Python - Pygame",
+      "picture": "tetris.png",
+      "github": "https://github.com/LeBaron88/Tetris-My-Way",
+      "link": "https://github.com/LeBaron88/Tetris-My-Way"
+    }
+  ],
+  "downloadLink": "Download Resume",
+  "email": {
+    "icon": "envelope",
+    "value": "simon.mpoyus@gmail.com"
+  },
+  "credit": "Designed & built by Simon Mpoy LeBaron 2019"
+}

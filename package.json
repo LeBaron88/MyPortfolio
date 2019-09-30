@@ -1,31 +1,24 @@
 {
-  "name": "simon",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
-  },
+  "name": "simonPortfolio",
+  "version": "1.0.0",
+  "description": "Server ",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "client": "npm start --prefix client",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "author": "le Baron",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.2"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "concurrently": "^4.1.2"
   }
 }

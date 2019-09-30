@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari:100,400,700&display=swap');
+
+body {
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 246, 252, 0.52),
+      rgba(9, 132, 227, 0.8)
+    ),
+    url('../img/bg5.jpg');
+}
+
+.pageHome {
+  font-weight: 400;
+  font-size: 1.1em;
+  text-align: left;
+  color: #57606f;
+  position: relative;
+  background-color: transparent;
+  height: 60%;
+  width: 80%;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.smallText,
+.bigText,
+.pText {
+  font-family: 'Manjari', sans-serif !important;
+  font-weight: 100;
+  font-size: 120%;
+  color: white !important;
+  display: block;
+  line-height: 0.9;
+}
+
+.smallText {
+  padding-top: 30px;
+  font-size: 70%;
+}
+
+.bigText {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.pText {
+  position: relative;
+  padding: 30px;
+  width: 100%;
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  color: rgba(236, 240, 241, 1) !important;
+  text-align: justify;
+}
+
+.pText::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  transition: width 1s;
+}
+.pText::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 30px;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  transition: height 1s;
+}
+.pText:hover::before {
+  width: 100%;
+}
+.pText:hover::after {
+  height: 100%;
+}
+
+.pTextBottom {
+  position: relative;
+  width: 70%;
+  background-color: transparent;
+  transition: box-shadow 0.5s, background-color 1s;
+}
+
+.pTextBottom:hover {
+  box-shadow: 0px 0px 10px #57606f;
+  background-color: rgba(9, 132, 227, 0.1);
+}
+
+.pTextBottom::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  bottom: 0px;
+  right: 0px;
+  transition: width 1s;
+}
+.pTextBottom::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 30px;
+  background-color: white;
+  bottom: 0px;
+  right: 0px;
+  transition: height 1s;
+}
+.pTextBottom:hover::before {
+  width: 100%;
+}
+.pTextBottom:hover::after {
+  height: 100%;
+}
+
+@media (max-width: 1025px) {
+  .pageHome {
+    margin-top: 40px !important;
+    width: 100%;
+    text-align: center !important;
+  }
+  .pTextDiv {
+    width: 80%;
+    margin: auto;
+  }
+  .pText {
+    width: 100%;
+    line-height: 22px;
+  }
+  .pTextBottom {
+    width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+  .pText > .ui.large.horizontal.list .list > .item,
+  .pText > .ui.large.horizontal.list > .item {
+    font-size: 0.48em;
+  }
+  .pText {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .bigText {
+    font-size: 90%;
+  }
+}

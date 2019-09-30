@@ -1,0 +1,214 @@
+.pRow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 10px auto;
+}
+.pCard {
+  padding: 0 1.7rem;
+  min-width: 290px;
+  margin-bottom: 20px;
+}
+.pCard .wrapper {
+  background-color: #fff;
+  min-height: 320px;
+  position: relative;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.pCard .wrapper:hover .data {
+  transform: translateY(0);
+}
+.pCard .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(calc(70px + 1em));
+  transition: transform 0.3s;
+}
+.pCard .data .content {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+.pCard .author {
+  font-size: 12px;
+}
+.pCard .title {
+  margin-top: 10px;
+}
+.pCard .text {
+  height: 70px;
+  margin: 0;
+}
+.pCard input[type='checkbox'] {
+  display: none;
+}
+.pCard input[type='checkbox']:checked + .menu-content {
+  transform: translateY(-60px);
+}
+.projectCard .data {
+  color: #fff;
+  transform: translateY(calc(70px + 4em));
+}
+.projectCard .title a {
+  color: #0984e3;
+}
+.projectCard .title a:hover,
+.projectCard i:hover,
+.projectCard .button:hover {
+  color: #6abbf9 !important;
+}
+
+.projectCard .button {
+  display: block;
+  width: 100px;
+  margin: 2em auto 1em;
+  text-align: center;
+  font-size: 12px;
+  color: #0984e3;
+  line-height: 1;
+  position: relative;
+  font-weight: 700;
+}
+
+.pCard .menu-content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.pCard .menu-content::before,
+.pCard .menu-content::after {
+  content: '';
+  display: table;
+}
+.pCard .menu-content::after {
+  clear: both;
+}
+.pCard .menu-content li {
+  display: inline-block;
+}
+.pCard .menu-content a {
+  color: #fff;
+}
+.pCard .menu-content span {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  transform: translate(-50%, 0);
+}
+
+.pCard input[type='checkbox']:checked + .menu-content {
+  transform: translateY(-60px);
+}
+
+.projectCard .wrapper:hover .menu-content span {
+  transform: translate(-50%, -10px);
+  opacity: 1;
+}
+.projectCard .header {
+  color: #fff;
+  padding: 1em;
+}
+.projectCard .header::before,
+.projectCard .header::after {
+  content: '';
+  display: table;
+}
+.projectCard .header::after {
+  clear: both;
+}
+.projectCard .header .date {
+  float: left;
+  font-size: 12px;
+}
+.projectCard .menu-content {
+  float: right;
+}
+.projectCard .menu-content li {
+  margin: 0 5px;
+  position: relative;
+}
+.projectCard .menu-content span {
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+@media (max-width: 970px) {
+  .pCard {
+    min-width: 280px;
+  }
+}
+
+@media (max-width: 937px) {
+  .pCard {
+    min-width: 270px;
+  }
+}
+
+@media (max-width: 903px) {
+  .pCard {
+    min-width: 265px;
+  }
+}
+
+@media (max-width: 887px) {
+  .pCard {
+    min-width: 235px;
+    padding: 0 0.4rem;
+  }
+}
+
+@media (max-width: 786px) {
+  .pCard {
+    min-width: 225px;
+    padding: 0 0.3rem;
+  }
+}
+
+@media (max-width: 753px) {
+  .pCard {
+    padding: 0 1.7rem;
+    min-width: 290px;
+  }
+}
+
+@media (max-width: 648px) {
+  .pCard {
+    min-width: 280px;
+  }
+}
+
+@media (max-width: 626px) {
+  .pCard {
+    min-width: 270px;
+  }
+}
+
+@media (max-width: 603px) {
+  .pCard {
+    min-width: 265px;
+  }
+}
+
+@media (max-width: 592px) {
+  .pCard {
+    min-width: 235px;
+    padding: 0 0.4rem;
+  }
+}
+
+@media (max-width: 526px) {
+  .pCard {
+    min-width: 290px;
+    padding: 0 1.7rem;
+  }
+  .pRow {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,16 @@
+.contactInfo > .icon + .content {
+  padding-left: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 120% !important;
+}
+
+.ui.segment {
+  height: 400px;
+}
+
+.contactHeader {
+  font-family: 'Manjari', sans-serif !important;
+  font-weight: 700;
+  font-size: 1.1em;
+}

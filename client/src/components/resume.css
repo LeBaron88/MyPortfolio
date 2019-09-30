@@ -1,0 +1,91 @@
+.itemDiv {
+  cursor: pointer !important;
+}
+
+.tabsVertical {
+  font-family: 'Manjari', sans-serif !important;
+  display: inline-block;
+}
+
+.tabsHorizontal {
+  font-family: 'Manjari', sans-serif !important;
+  display: none !important;
+}
+.contentData {
+  font-family: 'Manjari', sans-serif !important;
+  text-align: left;
+}
+
+.contentData > .ui.list .list > .item .header,
+.contentData > .ui.list > .item .header {
+  font-family: 'Manjari', sans-serif !important;
+  font-size: 1.1em;
+  padding-top: 10px;
+}
+
+.ui.avatar.image,
+.ui.avatar.image img,
+.ui.avatar.image svg,
+.ui.avatar.images .image,
+.ui.avatar.images img,
+.ui.avatar.images svg {
+  width: 3em;
+  height: 3em;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.skillsFlex {
+  width: 110px;
+  margin-top: 0px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 0.8em;
+}
+
+.skillCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.skillCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skillCardimg {
+  padding: 10px;
+
+  border-radius: 5px 5px 0 0;
+}
+
+.skillCardcontainer {
+  background-color: white;
+  padding: 2px 16px;
+  border-radius: 0px 0px 6px 6px;
+}
+
+@media (max-width: 575px) {
+  .tabsVertical {
+    display: none !important;
+  }
+  .tabsHorizontal {
+    display: inline-flex !important;
+  }
+  .ui.grid > .row > .stretched.column,
+  .ui.grid > .stretched.column:not(.row),
+  .ui.grid > .stretched.row > .column,
+  .ui.stretched.grid > .column,
+  .ui.stretched.grid > .row > .column {
+    width: 100% !important;
+  }
+  .contentData {
+    text-align: center !important;
+  }
+}

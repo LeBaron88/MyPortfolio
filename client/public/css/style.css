@@ -1,0 +1,6 @@
+body {
+  background-image: url('../img/bg5.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}

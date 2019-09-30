@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari:100,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+.initials {
+  font-family: 'Manjari', sans-serif !important;
+  font-weight: 700;
+  margin-top: 50px !important;
+  margin-bottom: 10px !important;
+  font-size: 3.5em !important;
+  color: #0984e3 !important;
+}
+
+.name {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #0984e3;
+  line-height: 30px;
+}
+
+.ui.header {
+  font-size: 4em !important;
+}
+
+.menuLeft {
+  height: 100vh !important;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2) !important;
+  position: absolute;
+  z-index: 10 !important;
+  width: 180px !important;
+  border-radius: 0px !important;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.ui.grid {
+  height: 100vh;
+}
+
+.showMenu {
+  display: block !important;
+  position: absolute;
+}
+
+.hideMenu {
+  display: none !important;
+}
+
+.tMenu {
+  display: none !important;
+}
+
+.pMenu {
+  position: absolute !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  margin-top: 0px !important;
+  width: 200px !important;
+  display: block;
+  left: -300px;
+  height: 100vh;
+  z-index: 100 !important;
+}
+
+.pusherContent {
+  height: 100vh;
+  width: 100%;
+}
+
+.pageContainer {
+  width: auto;
+  margin-left: 180px;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pageContent {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  text-align: center;
+  color: #57606f;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 90%;
+  width: 90%;
+  top: 50% !important;
+  left: 50% !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important;
+  transform: translate(-50%, -50%);
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.menuSpace {
+  float: left;
+  width: 180px !important;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#menuToggle {
+  cursor: pointer !important;
+}
+
+#style-3::-webkit-scrollbar-track {
+  width: 2px;
+  box-shadow: inset 0 0 0px rgba(95, 94, 94, 0.3);
+  background-color: transparent;
+}
+
+#style-3::-webkit-scrollbar {
+  width: 3px;
+  background-color: transparent;
+}
+
+#style-3::-webkit-scrollbar-thumb {
+  background-color: #0984e3;
+  width: 3px;
+}
+
+.icon {
+  color: #0984e3 !important;
+}
+
+.pageTitle {
+  height: 15%;
+  margin: 30px;
+  font-size: 3em;
+  border-left: 3px solid #0984e3;
+}
+
+.pageTitle:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  z-index: 100;
+  margin: 30px;
+  top: 0;
+  width: 15%;
+  height: 3px; /* or 100px */
+  background: #0984e3;
+}
+
+.contentTitle {
+  font-family: 'Fredoka One', cursive;
+  font-weight: 700;
+  text-align: center !important;
+  padding: 30px;
+  color: #a4b0be;
+}
+
+.label {
+  cursor: text !important;
+}
+
+.PageContentText {
+  margin: 50px;
+}
+
+.textOverlay {
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  height: 50%;
+  width: 100%;
+}
+
+.hideOverlay {
+  display: none;
+}
+
+.showOverlay {
+  display: inline-block;
+}
+
+.ui.vertical.pointing.menu .active.item:after {
+  display: none;
+}
+
+.ui.menu {
+  font-family: 'Manjari', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.menuIconLabel {
+  font-size: 180%;
+  font-weight: 700;
+  color: #0984e3;
+}
+
+.downloadButton {
+  font-size: 80%;
+  color: #0984e3;
+  margin-top: 110px !important;
+}
+
+.credit {
+  font-size: 80%;
+  color: #0984e3;
+  margin-top: 130px;
+}
+
+.ui.grid {
+  height: auto !important;
+}
+.ui.primary.basic.button:hover {
+  color: #6abbf9 !important;
+  border-color: #6abbf9 !important;
+}
+
+@media (min-width: 1025px) {
+  .pMenu {
+    display: none !important;
+  }
+}
+@media (max-width: 1025px) {
+  .menuLeft {
+    display: none !important;
+  }
+  .tMenu {
+    display: flex !important;
+  }
+  .menuSpace {
+    display: none;
+  }
+  .pageContainer {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .pageContent {
+    margin-top: 40px !important;
+    width: 100%;
+    height: 100%;
+  }
+  .pageTitle {
+    border: 0px;
+  }
+  .pageTitle:after {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .contentTitle {
+    font-size: 85% !important;
+  }
+}
