@@ -248,7 +248,7 @@
       "description": " An application allowing users to send surveys to a defined list of emails and get feedback ...",
       "technology": "React - Redux - Express - MongoDB - Passport - Node",
       "picture": "emaily.png",
-      "github": "https://github.com/LeBaron88/CardMatchGame",
+      "github": "https://github.com/LeBaron88/Emaily",
       "link": "https://gentle-river-26816.herokuapp.com/surveys"
     },
     {
